@@ -1,0 +1,8 @@
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: auth-ms-route
+#          uri: http:localhost:8761/AUTH-MS
+#          predicates:
+#            - Path=/auth-ms/**  # Replace with your desired path pattern
